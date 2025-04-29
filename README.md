@@ -7,8 +7,11 @@ npm install
 # Create .env file
 cp .env.example .env
 
-# Seed some test data manually (or create a simple seed script)
+# Seed Database
 npm run seed
 
 # Run local Dev server
 npm run watch
+
+# Postman Docs
+https://documenter.getpostman.com/view/32435306/2sB2j3BXX1
