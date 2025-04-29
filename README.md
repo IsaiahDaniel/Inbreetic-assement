@@ -1,5 +1,5 @@
 # Clone
-git clone <your-repo-url>
+git clone https://github.com/IsaiahDaniel/Inbreetic-assement
 
 # Install deps
 npm install
