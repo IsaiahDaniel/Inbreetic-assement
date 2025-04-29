@@ -1,0 +1,41 @@
+{
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.5.4",
+    "@types/node-cron": "^3.0.11",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.0",
+    "mongoose-paginate-v2": "^1.9.0",
+    "redis": "^4.7.0"
+  },
+  "name": "inbreetic-assement",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "tsc": "tsc",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "watch": "./node_modules/nodemon/bin/nodemon.js -e ts  --exec \"npm run tsc && npm run start\"",
+    "dev-watch": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "seed": "node dist/seeder.js"
+  },
+  "keywords": [],
+  "author": "Isaiah Daniel",
+  "license": "MIT",
+  "description": ""
+}
